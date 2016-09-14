@@ -28,6 +28,15 @@ div#header_menu li {
     font-size: 25px;
 }
 
+div#header_menu a:hover {
+    color: yellow;
+}
+
+div#header_menu a {
+    text-decoration: none;
+    color: white;
+}
+
 div#header_search {
     display: inline-block;
     float: right;
@@ -110,6 +119,15 @@ div .body_wrapper #body_wrapper_4 {
     color: #f1e8e8;
 }
 
+.body_content a:hover {
+    color: yellow;
+}
+
+.body_content a {
+    color: white;
+    text-decoration: none;
+}
+
  ul {
     list-style: none;
 }
@@ -169,6 +187,15 @@ p.menu_wrapper_content {
     color: grey;
     padding: 34px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+}
+
+ul.menu_wrapper_content a:hover {
+    color: #5536f4;
+}
+
+ul.menu_wrapper_content a {
+    color: grey;
+    text-decoration: none;
 }
 
 .footer_wrapper {
