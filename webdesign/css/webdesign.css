@@ -1,0 +1,181 @@
+.wrapper {
+    margin: -21px -8px;
+    width: 1920px;
+}
+
+
+.header_wrapper {
+
+    height: 1280px; 
+    width: 1920px; 
+    background-image: url(https://rushaidin.github.io/webdesign/images/header.png);
+ }
+
+div#logo {
+    padding: 25px 0px 0px 15px;
+    float: left;
+}
+
+div#header_menu {
+    display: inline-block;
+    margin: 20px 0px 0px 700px;
+}
+
+div#header_menu li {
+    display: inline-block;
+    color: white;
+    padding: 0px 40px 0px 0px;
+    font-size: 25px;
+}
+
+div#header_search {
+    display: inline-block;
+    float: right;
+    padding: 30px 20px 0px 0px;
+}
+
+div#header_heading {
+    text-align: center;
+    color: white;
+    margin: 0px 0px -40px 0px;
+    padding: 300px 0px 0px 0px;
+    font-size: 63px;
+}
+
+div#header_content {
+    color: white;
+    padding: 0px 0px 0px 626px;
+    font-size: 37px;
+    width: 700px;
+    text-align: center;
+}
+
+div#header_really_icon {
+    display: inline-block;
+    width: 225px;
+    height: 60px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 845px;
+    color: white;
+    text-align: center;
+    background-color: #f18f8f;
+    border: 3px solid #f1afaf;
+    border-radius: 37px;
+}
+
+div#header_vertical_line {
+    text-align: center;
+}
+
+div#header_play_button {
+    text-align: center;
+}
+
+div .body_wrapper #body_wrapper_1 {
+    width: 480px;
+    height: 500px;
+    display: inline-block;
+    background-color: blanchedalmond;
+    background-image: url(https://rushaidin.github.io/webdesign/images/body_1.png);
+    margin: 0px 0px 0px 0px;
+}
+
+div .body_wrapper #body_wrapper_2 {
+    width: 480px;
+    height: 500px;
+    display: inline-block;
+    background-image: url(https://rushaidin.github.io/webdesign/images/body_2.png);
+    margin: 0px 0px 0px -4px;
+}
+
+div .body_wrapper #body_wrapper_3 {
+    width: 480px;
+    height: 500px;
+    display: inline-block;
+    background-image: url(https://rushaidin.github.io/webdesign/images/body_3.png);
+    margin: 0px 0px 0px -4px;
+ }
+
+div .body_wrapper #body_wrapper_4 {
+    width: 480px;
+    height: 500px;
+    display: inline-block;
+    background-image: url(https://rushaidin.github.io/webdesign/images/body_4.png);
+    margin: 0px 0px 0px -4px;
+ }
+
+.body_content {
+    text-align: center;
+    padding: 170px 0px 0px 0px;
+    color: #f1e8e8;
+}
+
+ ul {
+    list-style: none;
+}
+
+ul.menu_wrapper_content {
+    font-style: italic;
+    color: grey;
+    padding: 0px 0px 0px 0px;
+}
+
+ul.menu_wrapper_content li {
+    padding: 10px 0px 0px 0px;
+}
+
+li#follow_us {
+    display: inline-block;
+    width: 360px;
+    height: 220px;
+    padding: 20px 40px;
+    margin: 40px 0px 0px 40px;
+    border-color: black;
+    border-width: 10px;
+}
+
+li#get_to_know_us {
+    display: inline-block;
+    width: 360px;
+    height: 220px;
+    padding: 20px 40px;
+    margin: 40px 0px 0px 40px;
+    border-color: black;
+    border-width: 10px;
+}
+
+li#locations {
+    display: inline-block;
+    width: 360px;
+    height: 220px;
+    padding: 20px 40px;
+    margin: 40px 0px 0px 0px;
+    border-color: black;
+    border-width: 10px;
+}
+
+li#our_mission {
+    display: inline-block;
+    width: 360px;
+    height: 220px;
+    padding: 20px 40px;
+    margin: 40px 0px 0px 20px;
+    border-color: black;
+    border-width: 10px;
+}
+
+p.menu_wrapper_content {
+    font-style: italic;
+    color: grey;
+    padding: 34px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer_wrapper {
+    text-align: center;
+    background-color: black;
+    color: grey;
+    width: auto;
+    height: 100px;
+    padding: 30px 0px 0px 0px;
+}
