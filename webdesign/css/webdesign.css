@@ -185,8 +185,9 @@ li#our_mission {
 p.menu_wrapper_content {
     font-style: italic;
     color: grey;
-    padding: 34px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    letter-spacing: 2px;
 }
 
 ul.menu_wrapper_content a:hover {
