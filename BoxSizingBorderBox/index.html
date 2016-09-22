@@ -1,1 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Box Sizing Border Box</title>
+	<style type="text/css">
 
+		div#container {
+		    display: inline-block;
+		    width: 1000px;
+		    background: yellow;
+		}
+
+		div#container .item {
+		    display: inline-block;
+		    width: 25%;
+		    box-sizing: border-box;
+		    float: left;
+		    text-align: center;
+		}
+
+		.item {
+		    margin: 20px 0px;
+		    padding: 10px;
+		    border: 8px black solid;
+		    box-sizing: border-box;
+		}
+
+		div#top {
+		    background: red;
+		}
+
+		div#left {
+		    background: blue;
+		}
+
+		div#right {
+		    background: grey;
+		}
+
+		div#footer {
+		    background: green;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="top" class="item">item</div>
+		<div id="left" class="item">item</div>
+		<div id="right" class="item">item</div>
+		<div id="footer" class="item">item</div>
+	</div>
+	
+</body>
+</html>
