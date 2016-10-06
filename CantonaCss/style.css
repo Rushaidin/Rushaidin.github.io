@@ -1,0 +1,202 @@
+*{
+	margin:0;
+	font-family: 'Baloo Bhai', cursive;
+}
+
+#container {
+	width:100%;
+	background:black;
+}
+
+#wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background: red;
+}
+
+
+.header {
+	width: 100%;
+	height: auto;
+	padding: 30px 0;
+}
+
+
+.logo {
+	margin-left:30px;
+}
+
+.logo  img {
+	position: relative;
+    top: 10px;
+    width: 200px;
+    height: 147px;
+    border-radius: 100px;
+    border: 5px solid white;
+    box-shadow: 0 6px 12px #f7f1bd,0 -6px 12px #f7f1bd, 6px 0 12px #f7f1bd,-6px 0 12px #f7f1bd;
+}
+
+.main-nav {
+	list-style: none;
+    display: inline-block;
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}
+
+.top-nav {
+    display: inline-block;
+    position: absolute;
+    top: 44px;
+    left:-52px;
+    background: white;
+    padding: 20px 0;
+    width: 140px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 70px;
+    box-shadow: 2px 2px 6px;
+}
+
+.bg-football {
+	display: inline-block;
+    position: relative;
+    top: -45px;
+    background-image: url(images/blue-ball-sm.png);
+    text-align:center;
+    width: 40px;
+    height: 40px;
+    margin-left:100px;
+}
+
+.main-nav a {font-size: 24px;color: red;}
+
+.main-nav a:hover {
+    color: gold;
+    text-shadow: 2px 2px 2px grey;
+}
+
+
+.main-nav > a > div {
+	visibility:hidden;
+}
+
+.main-nav > a > div > div {
+	visibility:visible;
+}
+
+.main-nav a:hover div {
+	visibility:visible;
+}
+
+.main {
+    background: gold;
+}
+
+.box {
+    box-sizing: border-box;
+    padding: 20px 30px;
+    display: inline-block;
+    vertical-align: top;
+    text-align:justify;
+}
+
+.sidebar {
+    width: 31%;
+}
+
+.sidebar img {
+    margin-top: 25px;
+    border: 8px solid white;
+    margin-left: 10px;
+}
+
+.content {
+    width: 68.6%;
+    border-left: 23px solid red;
+}
+
+h2 {
+    font-size: 28px;
+    color: gainsboro;
+    text-shadow: 2px 2px 2px black;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+p {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    margin-top:10px;
+    text-indent: 50px;
+}
+
+.top-footer {
+	text-align:center;
+}
+
+.top-footer h2{
+    padding: 20px 30px 0;
+    margin-bottom: 20px;
+}
+
+.top-footer p {
+    font-style: italic;
+    text-shadow: 4px 4px 4px grey;
+    font-weight: 700;
+    text-indent: 0;
+    text-align: center;
+}
+
+.service {
+    width: 21.17%;
+    height: 230px;
+    background: gold;
+    position: relative;
+    margin-right: 27px;
+    padding:20px;
+}
+
+.service:last-child {
+    margin-right: 0;
+
+}
+
+
+.pin {
+    position: absolute;
+    background-image: url(images/pin.png);
+    width: 24px;
+    height: 34px;
+    top: -13px;
+    right: -7px;
+}
+
+.footer {
+	text-align: center;
+    background: gold;
+    margin-top: 30px;
+        height: 250px;
+}
+
+h4,h3,span {
+	font-family:"Didact Gothic", sans-serif;
+}
+
+h3 {
+    color: gold;
+    background: black;
+    padding: 80px 0 0;
+    font-size: 40px;
+    letter-spacing: 8px;
+}
+
+h4 {
+    color: black;
+    padding: 0 0 80px;
+}
+span {
+	text-decoration:underline;
+	font-style:italic;
+}
