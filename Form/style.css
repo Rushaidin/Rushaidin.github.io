@@ -26,7 +26,7 @@ body {
 }
 
 .main-nav a:hover {
-    text-shadow: 2px 2px 2px grey;
+    text-transform: uppercase;
 }
 
 
@@ -41,6 +41,7 @@ body {
     box-shadow: 2px 2px 20px black;
     color: #c1afaf;
     font-size: 20px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .menu {
