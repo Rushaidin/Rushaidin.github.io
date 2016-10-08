@@ -79,6 +79,11 @@ body {
     height: 525px;
 }
 
+h2 {
+    text-shadow: 2px 2px 2px black;
+    color: #e0dbdb;
+}
+
 p {
     font-family: 'Dosis', sans-serif;
     line-height: 26px;
