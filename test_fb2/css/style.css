@@ -1,0 +1,104 @@
+*{margin=0;}
+
+body {
+    background: black;
+}
+
+div#container {
+    display: inline-block;
+    margin: 33% 33%;
+    border: 2px solid black;
+    padding: 20px 60px;
+    background: #edf0fd;
+    font-family: helvetica;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 40px;
+}
+
+.header p {
+    margin: 5px 0px;
+    font-size: 19px;
+}
+
+input[type="text"] {
+    width: 171px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: 10px 2px 5px 0px;
+}
+
+input[type="email"], input[type="confirm_email"], input[type="password"] {
+    width: 372px;
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid grey;
+    margin: 5px 2px 5px 0px;
+}
+
+select {
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: -6px;
+    height: 30px;
+    padding: 5px 5px;
+}
+
+a#birthday-help {
+    font-size: 11px;
+    width: 140px;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 5px 5px;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #365899;
+}
+
+.field-wrap p {
+    margin: 5px 0px;
+    font-size: 17px;
+}
+
+div#gender {
+    margin: 15px 0px;
+    font-size: 12px;
+}
+
+label {
+    margin-right: 16px;
+}
+
+p.terms {
+    font-size: 11px;
+    color: grey;
+}
+
+button.button.button-block {
+    background: linear-gradient(#67ae55, #578843);
+    background-color: #69a74e;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    border-radius: 5px;
+    padding: 10px 60px;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 10px 0px;
+    text-shadow: 0 2px 2px rgba(0,0,0,.5);
+    font-weight: bold;
+}
+
+button.button.button-block:hover {
+    background: linear-gradient(#79bd68, #578843);
+    background-color: #83bf69;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+}
