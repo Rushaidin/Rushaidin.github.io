@@ -1,1 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Bullsy</title>
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- font-awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<!-- google-font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:700" rel="stylesheet">
+	
+	<!-- custome css -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+    <!-- Fixed top navbar -->
+    <section id="navbar-main">     
+        <div class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+      
+                <div class="contact pull-left">
+
+                  <div class="phone pull-left">
+                    <p>
+                      <img src="images/phone_icon.png" alt="Phone">
+                      <span>+565 975 658</span>
+                    </p>
+                  </div> <!--end div phone pull-left -->
+
+                  <div class="email pull-left">
+                    <p>
+                      <img src="images/email_icon.png" alt="E-mail">
+                      <span>info@premiumcoding.com</span>
+                    </p>
+                  </div> <!--end div email pull-left -->
+
+                </div> <!--end div contact pull-left -->
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="glyphicon glyphicon-align-justify" style="font-size:24px; color:#000 "></span>  
+                    <span style="font-size:24px; color:#000"> Menu</span>
+                    </button>
+                </div> <!--end div navbar-header -->
+                <div class="navbar-collapse collapse pull-right">
+                    <ul class="nav navbar-nav">
+                        <li> <a href="#myaccount" class="smoothScroll"> MY ACCOUNT</a> </li>
+                        <li> <a href="#login" class="smoothScroll"> LOGIN</a> </li>
+                        <li> <a href="#checkout" class="smoothScroll">CHECKOUT</a> </li>
+                        <li> <a href="#signup" class="smoothScroll"> SIGN UP</a> </li>
+
+                        <li><a href="#" class="visible-xs-12 hidden-sm hidden-md hidden-lg">HOME</a></li>
+
+                        <li><a href="#" class="visible-xs-12 hidden-sm hidden-md hidden-lg">APPAREL</a></li>
+                        
+                        <li><a href="#" class="visible-xs-12 hidden-sm hidden-md hidden-lg">FASHION</a></li>
+                        
+                        <li><a href="#" class="visible-xs-12 hidden-sm hidden-md hidden-lg">CONTACT US</a></li>
+                    </ul>
+                </div> <!--end div navbar-collapse collapse pull-right -->
+
+            </div> <!--end div container -->
+
+
+            <div class="container-fluid main-header">
+
+              <div class="header_wrapper container">
+
+                <div class="logo pull-left">
+                  <div class="logo_text pull-left">
+                    <h1>BULLSY</h1>
+                    <P>RUGGED SHOES STORE</P>
+                  </div>
+                  <div class="logo_icon pull-left">
+                    <img src="images/logo_icon.png" alt="Logo">
+                  </div>
+                </div>
+
+
+                <div class="navigation pull-left ">
+                  <ul class="breadcrumb navbar-collapse collapse">
+                    <li><a href="#">HOME</a></li>
+                    
+                    <li><a href="#">APPAREL</a></li>
+                    
+                    <li><a href="#">FASHION</a></li>
+                    
+                    <li><a href="#">CONTACT US</a></li>
+                  </ul>
+                  
+                </div>
+
+
+                <div class="cart pull-right">
+                  <div class="cart_text pull-left">
+                    <p>10 items</p>
+                    <h4>459.00 €</h4>
+                  </div>
+                  <div class="cart_icon pull-left">
+                    <img src="images/cart_icon.png" alt="Cart">
+                  </div>
+                </div>
+                
+              </div>
+                                            
+            </div> <!--end div container -->
+
+
+        </div> <!--end div navbar navbar-default navbar-fixed-top -->
+    </section> <!--end section navbar-main -->
+    
+    
+  
+   
+
+  <!--Slider Start-->
+  <section id="slider">
+    <div class="container">
+
+      <div class="slider_back">
+        <img src="images/slider_image.png" alt="Slider">
+        
+        <div class="slide_text">
+          <ul>
+          <li><a href="#">SHOES</a></li>
+          <li><a href="#">SNICKERS</a></li>
+          <li><a href="#">BOOTS</a></li>
+          <li><a href="#">RUGGEDNESS</a></li>
+        </ul>
+        </div>
+
+        <div class="slider_image">
+          <img src="images/slider_transparent.png" alt="Slider">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--Service Start-->
+  <section class="service_wrapper container-fluid">
+    <div class="services container">
+      <div class="service box-1 col-md-4 col-sm-6 col-xs-12">
+        <h1>FREE SHIPPING</h1>
+        <p>- on all orders above <a href="#">$99</a></p>
+      </div>
+
+      <div class="service box-2 col-md-4 col-sm-6 col-xs-12">
+        <h1>NEW SHOES COLLECTION</h1>
+        <p>- brand new collection of <a href="#">Bulls Shoes</a></p>
+      </div>
+
+      <div class="service box-3 col-md-4 col-sm-12 col-xs-12">
+        <h1>MONEY BACK GUARANTEE</h1>
+        <p>- retun policy on all orders within <a href="#">14 days</a></p>
+      </div>
+
+
+    </div>
+  </section>
+    
+
+  <!--Portfolio One Start-->
+  <section class="portfolio_one_wrapper container-fluid">
+    <div class="portfolio_one container">
+      
+    <div class="heading_one">
+      <h1>OUR SHOE CATEGORIES</h1>
+      <img src="images/heading_thin_icon.png" alt="Heading">  
+    </div>
+
+    <div class="one_wrapper col-md-4 col-lg-4 text-center">
+      <img src="images/sc1.png" alt="Portfolio">
+      <div class="one">
+        <h1>SNICKERS</h1>
+        <p>Lorem Ipsum dolor sit awet, consecte at justo eget lorem port titor tancid ipsum lor.</p>
+        <p><a href="#">View the Category</a></p>
+      </div>
+    </div>
+
+    <div class="one_wrapper col-md-4 col-lg-4 text-center">
+      <img src="images/sc2.png" alt="Portfolio">
+      <div class="one">
+        <h1>RUNNING SHOES</h1>
+        <p>Lorem Ipsum dolor sit awet, consecte at justo eget lorem port titor tancid ipsum lor.</p>
+        <p><a href="#">View the Category</a></p>
+      </div>
+    </div>
+
+    <div class="one_wrapper col-md-4 col-lg-4 text-center">
+      <img src="images/sc3.png" alt="Portfolio">
+      <div class="one">
+        <h1>MOUNTAIN SHOES</h1>
+        <p>Lorem Ipsum dolor sit awet, consecte at justo eget lorem port titor tancid ipsum lor.</p>
+        <p><a href="#">View the Category</a></p>
+      </div>
+    </div>
+
+
+    </div>
+  </section>
+
+
+  <!--Portfolio Two Start-->
+  <section class="portfolio_two_wrapper container-fluid">
+    <div class="portfolio_two container">
+      
+
+      <div class="heading_two">
+        <h1>OUR LATEST ARRIVALS</h1>
+        <img src="images/heading_thin_icon.png" alt="Heading">  
+      </div>
+
+        <div class="two_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/la1.png" alt="Portfolio">
+          <div class="two">
+            <p>Bullsy Shoes in white</p>
+            <h4>$159.99</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+
+        <div class="two_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/la2.png" alt="Portfolio">
+          <div class="two">
+            <p>Bullsy Shoes for Winter</p>
+            <h4>$329.49</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+
+        <div class="two_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/la3.png" alt="Portfolio">
+          <div class="two">
+            <p>Bullsy Snickers</p>
+            <h4>$52.99</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+
+        <div class="two_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/la4.png" alt="Portfolio">
+          <div class="two">
+            <p>Bullsy grey Snickers / Shoes</p>
+            <h4>$79.49</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  
+
+  <!--Portfolio Three Start-->
+  <section class="portfolio_three_wrapper container-fluid">
+    <div class="portfolio_three container">
+      
+
+      <div class="heading_one">
+        <h1>FEATURED PRODUCTS</h1>
+        <img src="images/heading_thin_icon.png" alt="Heading">  
+      </div>
+
+        <div class="three_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/fp1.png" alt="Portfolio">
+          <div class="three">
+            <p>Bullsy Shoes in white</p>
+            <h4>$159.99</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+
+
+        <div class="three_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/fp2.png" alt="Portfolio">
+          <div class="three">
+            <p>Bullsy Shoes for Winter</p>
+            <h4>$329.49</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+
+
+        <div class="three_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/fp3.png" alt="Portfolio">
+          <div class="three">
+            <p>Bullsy Snickers</p>
+            <h4>$52.99</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+
+
+        <div class="three_wrapper col-sm-6 col-md-3 col-lg-3">
+          <img src="images/fp4.png" alt="Portfolio">
+          <div class="three">
+            <p>Bullsy grey Snickers / Shoes</p>
+            <h4>$79.49</h4>
+            <p><a href="#">ADD TO CART</a></p>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+
+  <!--Blog Start-->
+  <section class="blog_wrapper container-fluid">
+    <div class="blog container">
+      
+      <div class="heading_two">
+        <h1>LATEST FROM THE BLOG</h1>
+        <img src="images/heading_thin_icon.png" alt="Heading">  
+      </div>
+
+      <div class="four_wrapper col-md-4 col-lg-4">
+        <img src="images/b1.png" alt="Blog">
+        <div class="four">
+          <h4>Extra rugged flip-flops will arrive soon</h4>
+          <p>Lorem Ipsum dolor sit amet, coct adipiscing elit, ip as consectuni. Lor ipsum dolor sit amet, consec adi pis elit, sed diam nonumm nibh euised tincidunt.</p>
+          <p><a href="#">Read More</a></p>
+        </div>
+      </div>
+
+
+      <div class="four_wrapper col-md-4 col-lg-4">
+        <img src="images/b2.png" alt="Blog">
+        <div class="four">
+          <h4>New models of Bullsy Snickers just arrived</h4>
+          <p>Lorem Ipsum dolor sit amet, coct adipiscing elit, ip as consectuni. Lor ipsum dolor sit amet, consec adi pis elit, sed diam nonumm nibh euised tincidunt.</p>
+          <p><a href="#">Read More</a></p>
+        </div>
+      </div>
+
+
+      <div class="four_wrapper col-md-4 col-lg-4">
+        <img src="images/b3.png" alt="Blog">
+        <div class="four">
+          <h4>Extra rugged flip-flops will arrive soon</h4>
+          <p>Lorem Ipsum dolor sit amet, coct adipiscing elit, ip as consectuni. Lor ipsum dolor sit amet, consec adi pis elit, sed diam nonumm nibh euised tincidunt.</p>
+          <p><a href="#">Read More</a></p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+  <!--Footer Top Start-->
+  <section class="footer_top_wrapper container-fluid">
+    <div class="footer_top container">
+      <h1 class="text-center">BULLSY - A RUGGED STORE FOR RUGGED PEOPLE</h1>
+      <p class="text-center">read more about our store regulations and policy <a href="#">here</a>. Lorem ipsum dolor sit amet</p>
+    </div>
+  </section>
+
+
+
+
+  <!--Footer Middle Start-->
+  <section class="footer_middle_wrapper container-fluid">
+    <div class="footer_middle container">
+
+
+      <div class="f_logo col-xs-12 col-sm-3 col-md-3 col-lg-3 text-center">
+        <div class="f_logo_text pull-left">
+          <h1 class="text-white">BULLSY</h1>
+          <p class="text-white">RUGGED SHOES STORE</p>
+        </div>
+        <div class="f_logo_icon pull-left">
+          <img src="images/f_logo_icon.png" alt="Logo">
+        </div>
+      </div>
+
+
+      <div class="f_navigation col-xs-12 col-sm-8 col-md-8 col-lg-8 text-center">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li class="slash">/</li>
+          <li><a href="#">APPAREL</a></li>
+          <li class="slash">/</li>
+          <li><a href="#">FASHION</a></li>
+          <li class="slash">/</li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+        <p class="text-white text-center">&copy; 2013 copyright PREMIUMCODING // All rights reserved</p>
+      </div>
+
+
+      <div class="top_icon col-xs-12 col-sm-1 col-md-1 col-lg-1 text-center">
+        <div class="top_icon_img">
+          <img src="images/top_icon.png" alt="Top Icon">
+        </div>
+        
+      </div>
+
+
+    </div>
+  </section>
+
+
+
+  <!--Footer Bottom Start-->
+  <section class="footer_bottom_wrapper container-fluid fix">
+    <div class="footer_bottom container">
+
+
+      <div class="social col-md-4 col-lg-4 pull-left">
+        <ul>
+          <li><a href="#"><img src="images/social_icon_rss.png" alt="Social"></a></li>
+          <li><a href="#"><img src="images/social_icon_flicker.png" alt="Social"></a></li>
+          <li><a href="#"><img src="images/social_icon_fb.png" alt="Social"></a></li>
+          <li><a href="#"><img src="images/social_icon_twitter.png" alt="Social"></a></li>
+          <li><a href="#"><img src="images/social_icon_dribble.png" alt="Social"></a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-4 col-lg-4"></div>
+
+      <div class="copyright col-md-4 col-lg-4 pull-right">
+        <p>Designed by <a href="#">PremiumCoding.com</a> Web Design</p>
+      </div>
+
+
+    </div>
+  </section>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
