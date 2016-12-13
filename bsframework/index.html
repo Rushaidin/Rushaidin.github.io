@@ -1,1 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>The Setup</title>
 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- font-awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+
+	<!-- google-font -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,400,700,900" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+	
+	<!-- custome css -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+
+      <!-- header section -->
+      <div class="row">
+
+        <div class="col-md-6">
+          <img src="images/udacity.png"  class="title-logo img-responsive" alt="udify logo">
+        </div>
+
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">JANE DOETTE</h1>
+          <h4>FRONT-END NINJA</h4>
+        </div>
+
+      </div>
+
+      <!-- slider section -->
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img src="https://placekitten.com/g/1140/500" class="img-responsive"  alt="slider">
+        </div>
+      </div>
+
+      <!-- feature work title -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+        <div class="col-md-8"></div>
+      </div>
+
+      <!-- feature work content -->
+      <div class="row text-center">
+
+        <div class="col-md-4" data-toggle="modal" data-target="#AppifyModal">
+          <img src="https://placekitten.com/g/350/200"  class="img-responsive" alt="appify">
+          <h3 class="text-uppercase">APPIFY</h3>
+          <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+        </div>
+
+        <div class="col-md-4" data-toggle="modal" data-target="#SunflowerModal">
+          <img src="https://placekitten.com/g/350/200"  class="img-responsive" alt="sunflower">
+          <h3 class="text-uppercase">SUNFLOWER</h3>
+          <a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+        </div>
+
+        <div class="col-md-4" data-toggle="modal" data-target="#BokehModal">
+          <img src="https://placekitten.com/g/350/200"  class="img-responsive" alt="bokeh">
+          <h3 class="text-uppercase">BOKEH</h3>
+          <a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+        </div>
+
+        <!-- Modal Appify-->
+        <div class="modal fade" id="AppifyModal" tabindex="-1" role="dialog" aria-labelledby="AppifyLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="AppifyLabel">APPIFY</h4>
+              </div>
+              <div class="modal-body">
+                <img src="https://placekitten.com/g/350/200"  class="img-responsive" alt="sunflower">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div> <!-- end Modal Appify -->
+
+        <!-- Modal Sunflower-->
+        <div class="modal fade" id="SunflowerModal" tabindex="-1" role="dialog" aria-labelledby="SunflowerLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="SunflowerLabel">SUNFLOWER</h4>
+              </div>
+              <div class="modal-body">
+                <img src="https://placekitten.com/g/350/200"  class="img-responsive" alt="sunflower">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div> <!-- end Modal Sunflower -->
+
+        <!-- Modal Bokeh-->
+        <div class="modal fade" id="BokehModal" tabindex="-1" role="dialog" aria-labelledby="BokehLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="BokehLabel">BOKEH</h4>
+              </div>
+              <div class="modal-body">
+                <img src="https://placekitten.com/g/350/200"  class="img-responsive" alt="sunflower">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div> <!-- end Modal Bokeh -->
+
+      </div> <!-- end feature work content -->
+
+    </div> <!-- end container -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
