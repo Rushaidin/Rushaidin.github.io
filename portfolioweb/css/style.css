@@ -1,0 +1,303 @@
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: -15px;
+}
+
+
+header#navbar-main {
+    background-color: #87509c;
+    padding: 25px 0;
+}
+
+.navbar img {
+    /*display: inline-block;*/
+    padding: 0;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    height: 140px;
+    width: 140px;
+}
+
+
+.navbar-collapse.collapse {
+   /* float: right;*/
+    padding: 40px 0;
+}
+
+.navbar-collapse.collapse > ul {
+    font-size: 16px;
+    font-weight: 400;
+}    
+
+.navbar-collapse.collapse > ul > li > a {
+    color: white;
+    cursor: pointer;
+}
+
+#navbar-main .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #643a79;
+    border-radius: 10px;
+}
+
+
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 58px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+
+	.navbar-collapse.collapse {
+	    padding: 0;
+	    background: #b26abf;
+	    -webkit-transition: all 0.75s;
+	    -moz-transition: all 0.75s;
+	    transition: all 0.75s;
+        margin: 0 auto;
+	}
+
+	.navbar-nav {
+	    margin: 7.5px 40px;
+	}
+
+	.navbar-collapse.collapse > ul > li > a {
+	    color: white;
+	}
+
+}
+
+
+/*HOME*/
+section#home {
+    background: url(http://dbabh6n22lcr.cloudfront.net/wp-content/uploads/sites/20/2016/06/Kitchen-Architech.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-top: 222px;
+}
+
+.header-content {
+    margin-top: 15%;
+}
+
+.header-content >h1 {
+    color: #87509c;
+    text-shadow: 2px 2px 5px #2a2829;
+    font-size: 50px;
+}
+
+@media only screen and (max-width: 425px){
+    .header-content {
+        margin-top: 50%;
+    }
+}
+
+
+
+
+/*ABOUT*/
+section#about {
+    background-color: #17c2a4;
+    padding: 70px 0px 120px;
+}
+
+div#serviceswrap {
+    margin-bottom: 100px;
+}
+
+.services-header > h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+
+
+.services-header hr {
+    width: 10%;
+    border: 2px solid #14a58c;
+}
+
+.services-header > p {
+    display: inline-block;
+    padding: 0px 20%;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.services-icon >img {
+    margin: 0 auto;
+}
+
+.services-content {
+    color: white;
+    padding: 10px 30px;
+}
+
+.services-content > h3{
+    font-size: 24px;
+    font-weight:700;
+}
+
+.services-content > p{
+    font-size: 16px;
+    font-weight:300;
+}
+
+
+
+/*PORTFOLIO*/
+.portfolio-title {
+    color: #87509c;
+    text-shadow: 2px 2px 5px #2a2829;
+    font-size: 50px;
+}
+
+.grid figure {
+    margin: 0;
+    position: relative;
+}
+
+.grid figure img {
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.grid figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+    background: #3498db;
+}
+
+.grid figcaption h5 {
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+    
+}
+
+.grid figcaption a {
+    text-align: left;
+    padding: 5px 10px;
+    margin-left: 20px;
+    display: inline-block;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 13px;
+}
+
+/* Caption Style */
+.mask figure {
+    overflow: hidden;
+}
+
+.mask figure img {
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
+}
+
+.no-touch .mask figure:hover img,
+.mask figure.cs-hover img {
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
+}
+
+.mask figcaption {
+    height: 50px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .mask figure:hover figcaption,
+.mask figure.cs-hover figcaption {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
+}
+
+.mask figcaption a {
+    position: absolute;
+    top:10px;
+    bottom: 10px;
+    right: 30px;
+}
+
+
+
+
+span.myweight {
+    background: #87509c;
+    padding: 3px 15px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px grey;
+    box-shadow: 1px 1px 1px grey;
+}
+
+.centered {
+    text-align: center;
+}
+
+
+
+#footerwrap {
+    background: #2b2b2b;
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+#footerwrap h4 {
+    color: white;
+}
